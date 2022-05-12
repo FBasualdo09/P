@@ -1,37 +1,69 @@
-/*Ajustes en la barra de navegacion faltan detalles
-   Los colores no me convencen, tengo que verlos mas adelante, las convinaciones*/
+                /*CUERPO DE TODA LA PAGINA*/
+
+
+body{
+    background-color: chocolate;
+    margin: 0px;
+    }
+
+header{
+       margin-bottom: 0px;
+       overflow: hidden;
+      }
+
+
+
+             /*BARRA DE INICIO*/
+
+
+
 .barra_navegadora{
     font-size: 50px;
     background-color: chocolate;
     color:white;
     display: block;
     text-align: center;
-    border-radius: 20px;
+    border: 15px double grey;
     padding-left: 10px;
     margin: 0px;
     margin-bottom: 0px;
 }
-.titulos_navegadores{
-    margin-left: 50%;
-}
-.barra_navegadora__superior-1{
+a{
     color:black;
+}
+.titulos_navegadores{
+    margin-left: 35%;
+    text-align: center;
+    padding-bottom: 30px;
 }
 .barra_navegadora__superior{
     display: inline-block;
-    font-size:small;
+    font-size:medium;
     margin-left: 10px;
     margin-right: 0px;
     border-radius: 10%;
-    padding-bottom: 30px;
+    border: 3px solid grey;
+    margin-left: 5px;
+    padding: 15px 10px;
 
+    /*padding-top: 5px;
+    padding-bottom: 5px;*/
+
+}
+.barra_navegadora__superior :hover{
+    background-color: white;
+    color: #111;
 }
 
 
 
-/*Ajuste en el MENU,SECCTION Y ARTICLE VER BIEN LOS TAMAÑOS Y LETRAS*/
+                /* MAIN*/
 
-/*COMENZAMOS CON EL TITULO*/
+
+article{                                /*  Comenzamos con el titulo*/
+    margin-top: 0px;
+}
+
 .welcom{
     font-size: 35px;
     margin-top:0px;
@@ -43,48 +75,52 @@
     font-family: 'Tapestry', cursive;
     font-weight: 50;
     text-align: center;
-    background-color: chocolate;
+    background-color: grey;
     padding: 10px;
-    border-radius: 20px;
+    border-radius: 50px;
+    border: 10px  #111;
+    border-style: solid;
+    box-shadow: 10px 10px  45px #111, -10px -10px 45px #111  ; 
+     
+    
 }
-
-
-
-
-
-
 
 
 .comienzo{
     font-size: 20px;
+    text-align: center;
+    
 }
 .comienzo__1{
     font-size: 2em;
-    color:green;
+    color: black;
     font-family: cursive;
 }
 .comienzo__1--parrafo{
     font-size: 1em;
     color: black;
+    background-color: grey;
 }
-.end{
-    font-size: 10px;
+
+
+
+                /*  BARRA FINAL */
+
+
+
+.barra_final{
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 10px;
 }
-.end__1{
-    font-size: 4em;
-    color:black;
-    font-weight: 00;
-    font-family: cursive;
-}
-.end__1--nuevo{
-    font-family: Arial, Helvetica, sans-serif;
+.barra_final__footer__titulo{
     font-size: 2em;
-    color: black;
+    font-family: cursive;
+    text-align: center;
+    padding: 10px;
 }
-.end_end{
-    font-size: 50px;
-}
-.end_end__folder{
-    font-size: 5em;
-    background-color: lime;
+.barra_final__footer__contacto{
+    padding-top: 10px;
+
 }
